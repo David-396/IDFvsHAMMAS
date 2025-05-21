@@ -10,7 +10,8 @@ namespace IDFvsHAMMAS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ss");
+            Console.WriteLine("hello");
+
         }
     }
 }
