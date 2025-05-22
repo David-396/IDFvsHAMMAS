@@ -7,15 +7,15 @@ namespace IDFvsHAMMAS
         protected string Name;
         protected int ID;
         protected string DamageType;
-        protected string EffectiveAgaints;
+        protected string EffectiveAgainst;
         protected int? Ammo;
         
-        public AttackTool(string name, int id, string damageType, string effectiveAgaints, int ammo = 100)
+        public AttackTool(string name, int id, string damageType, string effectiveAgainst, int ammo = 100)
         {
             this.Name = name;
             this.ID = id;
             this.DamageType = damageType;
-            this.EffectiveAgaints = effectiveAgaints;
+            this.EffectiveAgainst = effectiveAgainst;
             this.Ammo  = ammo;
         }
         
@@ -32,9 +32,9 @@ namespace IDFvsHAMMAS
         {
             return this.DamageType;
         }
-        public string GetEffectiveAgaints()
+        public string GetEffectiveAgainst()
         {
-            return this.EffectiveAgaints;
+            return this.EffectiveAgainst;
         }
         public int? GetAmmo()
         {
