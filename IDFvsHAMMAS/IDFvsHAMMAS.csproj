@@ -43,7 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AttackTool.cs" />
+    <Compile Include="AttackTools\AttackTool.cs" />
+    <Compile Include="AttackTools\Combatvehicle\AirCraft.cs" />
+    <Compile Include="AttackTools\Combatvehicle\CombatVehicle.cs" />
+    <Compile Include="AttackTools\Combatvehicle\GroundVehicle.cs" />
+    <Compile Include="AttackTools\Combatvehicle\SeaVehicle.cs" />
+    <Compile Include="AttackTools\FirawarmWeapon.cs" />
+    <Compile Include="AttackTools\MeleeWeapon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unit\AirForce.cs" />
