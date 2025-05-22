@@ -10,14 +10,14 @@ namespace IDFvsHAMMAS
        protected List<Soldier> Soldiers;
        protected List<AttackTool> Strike;
        
-       public Unit(string name, int id, string type, string commander, int missionID, List<Soldires> soldires, List<AttackTool> strike)
+       public Unit(string name, int id, string type, string commander, int missionID, List<Soldires> soldiers, List<AttackTool> strike)
        {
            this.Name = name;
            this.ID = id;
            this.Type = type;
            this.Commander = commander;
            this.MissionID = missionID;
-           this.Soldires = soldires;
+           this.Soldiers = soldiers;
            this.Strike = strike;
        }
 
