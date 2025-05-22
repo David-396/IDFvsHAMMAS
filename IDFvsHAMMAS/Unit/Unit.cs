@@ -7,7 +7,7 @@ namespace IDFvsHAMMAS
        protected string Type;
        protected string Commander;
        protected int MissionID;
-       protected List<Soldires> Soldires;
+       protected List<Soldier> Soldiers;
        protected List<AttackTool> Strike;
        
        public Unit(string name, int id, string type, string commander, int missionID, List<Soldires> soldires, List<AttackTool> strike)

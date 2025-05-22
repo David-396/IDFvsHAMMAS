@@ -46,6 +46,11 @@
     <Compile Include="AttackTool.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit\AirForce.cs" />
+    <Compile Include="Unit\Aman.cs" />
+    <Compile Include="Unit\Infantry.cs" />
+    <Compile Include="Unit\NavySeals.cs" />
+    <Compile Include="Unit\Nuchba.cs" />
     <Compile Include="Unit\Unit.cs" />
   </ItemGroup>
   <ItemGroup>
